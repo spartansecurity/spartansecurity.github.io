@@ -7,6 +7,146 @@
 	},
 	"buffers":
 	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 16,
+				"line_ending": "Unix",
+				"name": "*sublime-project"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/blog/2015-09-15-A-New-Year.markdown",
+			"settings":
+			{
+				"buffer_size": 1268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/blog/2015-04-21-New-Officers.markdown",
+			"settings":
+			{
+				"buffer_size": 676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/blog/2015-04-16-Cisco-Returns.markdown",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Unix",
+				"name": "---"
+			}
+		},
+		{
+			"file": "_posts/blog/2015-02-26-Cisco.markdown",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/blog/2015-02-11-Facebook.markdown",
+			"settings":
+			{
+				"buffer_size": 629,
+				"line_ending": "Unix",
+				"name": "---"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 578,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header_small.html",
+			"settings":
+			{
+				"buffer_size": 283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/home.html",
+			"settings":
+			{
+				"buffer_size": 705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/about.html",
+			"settings":
+			{
+				"buffer_size": 1371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 258,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer_small.html",
+			"settings":
+			{
+				"buffer_size": 286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/history.html",
+			"settings":
+			{
+				"buffer_size": 2466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/contact.html",
+			"settings":
+			{
+				"buffer_size": 773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 34438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "grey #e5eaee",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Unix",
+				"name": "grey #e5eaee"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -81,10 +221,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/viviturtle/Github/spartansecurity.github.io"
+		"/home/viviturtle/Github/spartansecurity.github.io",
+		"/home/viviturtle/Github/spartansecurity.github.io/_includes",
+		"/home/viviturtle/Github/spartansecurity.github.io/_includes/svg-icon",
+		"/home/viviturtle/Github/spartansecurity.github.io/_posts",
+		"/home/viviturtle/Github/spartansecurity.github.io/_posts/blog",
+		"/home/viviturtle/Github/spartansecurity.github.io/_posts/portfolio",
+		"/home/viviturtle/Github/spartansecurity.github.io/assets",
+		"/home/viviturtle/Github/spartansecurity.github.io/assets/css"
 	],
 	"file_history":
 	[
+		"/home/viviturtle/Github/spartansecurity.github.io/_layouts/default.html",
 		"/home/viviturtle/Github/viviturtle.github.io/_includes/header.html",
 		"/home/viviturtle/Github/Projects/.gitignore",
 		"/etc/rc.local",
@@ -139,7 +287,7 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 45.0
 	},
 	"find_in_files":
 	{
@@ -153,6 +301,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"body",
+			"e5eaee",
+			"229, 234, 238",
+			"229, 234, 238)",
+			"infosec_logo_clear.png",
+			"GOC1.png",
+			"><",
+			"0, 206, 209, 0.9)",
+			"0, 139, 139, 0.9)",
+			"0, 206, 209, 0.9)",
+			"72, 209, 204, 0.9)",
+			"64, 224, 2018, 0.9)",
+			"0, 255, 255, 0.9)",
+			"255, 0, 0, 0.7)",
+			"img/infosec_logo.png",
+			"infosec_logo.jpg",
+			"face.JPG",
+			"0, 255, 255, 0.7)",
+			"255, 255, 255, 0.7)",
+			"0, 0, 0, 0.5)",
+			"galway2.jpg",
 			" ",
 			",",
 			"\n",
@@ -194,6 +363,21 @@
 		"regex": false,
 		"replace_history":
 		[
+			"white",
+			"infosec_logo_clear.png",
+			"32, 178, 170, 0.9)",
+			"0, 206, 209, 0.9)",
+			"0, 139, 139, 0.9)",
+			"0, 206, 209, 0.9)",
+			"72, 209, 204, 0.9)",
+			"64, 224, 2018, 0.9)",
+			"0, 255, 255, 0.9)",
+			"infosec_logo.png",
+			"infosec_logo.jpg",
+			"255, 0, 0, 0.7)",
+			"0, 255, 255, 0.7)",
+			"255, 255, 255, 0.7)",
+			"infosec_cover.jpg",
 			"8",
 			"7",
 			"6",
@@ -213,8 +397,490 @@
 	"groups":
 	[
 		{
+			"selected": 13,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"auto_name": "*sublime-project",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/blog/2015-09-15-A-New-Year.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/blog/2015-04-21-New-Officers.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_posts/blog/2015-04-16-Cisco-Returns.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_posts/blog/2015-02-26-Cisco.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_posts/blog/2015-02-11-Facebook.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_includes/header_small.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_layouts/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_includes/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1371,
+								1371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "_includes/footer_small.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "_includes/history.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "_includes/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13254,
+								13254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17925.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"auto_name": "grey #e5eaee",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -265,7 +931,7 @@
 	"project": "InfoSecBlog.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 84.0
 	},
 	"save_all_on_build": true,
 	"select_file":
