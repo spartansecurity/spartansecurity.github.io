@@ -598,8 +598,8 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
   .logo {
     height: 70px;
     width: 70px;
-    background: url(../img/GOC1.png) center center;
-    background-size: 70px 47px;
+    background: url(../img/infosec_logo_clear.png) center center;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     position: fixed;
     left: 5px;
@@ -628,10 +628,10 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
   .logo {
     height: 90px;
     width: 90px;
-    background: url(../img/GOC1.png) center center;
+    background: url(../img/infosec_logo_clear.png) center center;
     width: 88px;
     height: 47px;
-    background-size: 88px 47px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     float: left;
     margin: 30px 0 0 30px; } }
@@ -653,7 +653,7 @@ header {
     margin: 30px 30px 30px; }
     header nav a {
       margin-left: 20px;
-      color: rgba(255, 0, 0, 0.7); }
+      color: rgba(255, 255, 255, 0.9); }
       @media only screen and (min-width: 220px) {
         header nav a {
           display: none; } }
@@ -664,7 +664,7 @@ header {
         color: black; }
   header h1 {
     text-align: center;
-    color: rgba(255, 0, 0, 0.7);
+    color: rgba(32, 178, 170, 0.9);
     text-transform: uppercase;
     letter-spacing: 0.05cm;
     margin-bottom: 20px;
@@ -687,7 +687,7 @@ header {
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
-      border: rgba(255, 0, 0, 0.7) solid 10px; }
+      border: rgba(32, 178, 170, 0.9) solid 10px; }
       @media only screen and (min-width: 220px) {
         header h1 span {
           padding: 0.2em 0.5em; } }
@@ -700,7 +700,7 @@ header {
   header .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(255, 0, 0, 0.7); }
+    color: rgba(32, 178, 170, 0.9); }
 
 footer {
   background: url(../img/galway3.jpg) center center;
@@ -1385,24 +1385,24 @@ form {
     #h_small #nav_small a {
       display: inline-block;
       margin-left: 10px;
-      color: rgba(255, 0, 0, 0.7); }
+      color: rgba(32, 178, 170, 0.9); }
       #h_small #nav_small a:hover {
         color: black; }
   #h_small #h1_small {
     display: inline-block;
     font-size: 72px;
     font-weight: 700;
-    color: rgba(255, 0, 0, 0.7);
+    color: rgba(32, 178, 170, 0.9);
     text-transform: uppercase;
     letter-spacing: 0.05cm; }
     #h_small #h1_small span {
       display: inline-block;
       padding: 0.2em 0.5em;
-      border: rgba(255, 0, 0, 0.7) solid 10px; }
+      border: rgba(32, 178, 170, 0.9) solid 10px; }
   #h_small .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(255, 0, 0, 0.7); }
+    color: rgba(32, 178, 170, 0.9); }
 
 .thumb-container {
   max-width: 960px;
