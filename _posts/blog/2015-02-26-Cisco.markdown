@@ -5,6 +5,6 @@ date:   2015-02-26 16:51:11
 categories: blog
 ---
 
-<iframe width="800" height="415" src="https://www.youtube.com/watch?list=PLn6B36nIjoxRy3bVWxKY8a5YqdPQ9mSce&v=-RilWZwnjTw" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="415" src="https://www.youtube.com/embed/-RilWZwnjTw" frameborder="0" allowfullscreen></iframe>
 
 Last Thursday we were able to get Ms. Guel, a distinguised IT Engineer at Cisco to talk about her journey through cyber-security as one of few females in the field. We'd like to thank her again for volunteering her time to talk about for the club. 

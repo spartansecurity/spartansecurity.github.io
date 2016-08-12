@@ -70,7 +70,7 @@
 			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 578,
+				"buffer_size": 593,
 				"line_ending": "Unix"
 			}
 		},
@@ -78,7 +78,7 @@
 			"file": "_includes/header_small.html",
 			"settings":
 			{
-				"buffer_size": 283,
+				"buffer_size": 297,
 				"line_ending": "Unix"
 			}
 		},
@@ -86,7 +86,15 @@
 			"file": "_layouts/home.html",
 			"settings":
 			{
-				"buffer_size": 705,
+				"buffer_size": 707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/portfolio/2015-09-30-welcome-to-jekyll2.markdown",
+			"settings":
+			{
+				"buffer_size": 1286,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,14 +111,6 @@
 			"settings":
 			{
 				"buffer_size": 258,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/footer_small.html",
-			"settings":
-			{
-				"buffer_size": 286,
 				"line_ending": "Unix"
 			}
 		},
@@ -134,7 +134,7 @@
 			"file": "assets/css/main.css",
 			"settings":
 			{
-				"buffer_size": 34438,
+				"buffer_size": 34456,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,15 +223,15 @@
 	[
 		"/home/viviturtle/Github/spartansecurity.github.io",
 		"/home/viviturtle/Github/spartansecurity.github.io/_includes",
-		"/home/viviturtle/Github/spartansecurity.github.io/_includes/svg-icon",
+		"/home/viviturtle/Github/spartansecurity.github.io/_layouts",
 		"/home/viviturtle/Github/spartansecurity.github.io/_posts",
 		"/home/viviturtle/Github/spartansecurity.github.io/_posts/blog",
 		"/home/viviturtle/Github/spartansecurity.github.io/_posts/portfolio",
-		"/home/viviturtle/Github/spartansecurity.github.io/assets",
-		"/home/viviturtle/Github/spartansecurity.github.io/assets/css"
+		"/home/viviturtle/Github/spartansecurity.github.io/assets"
 	],
 	"file_history":
 	[
+		"/home/viviturtle/Github/spartansecurity.github.io/_includes/footer_small.html",
 		"/home/viviturtle/Github/spartansecurity.github.io/_layouts/default.html",
 		"/home/viviturtle/Github/viviturtle.github.io/_includes/header.html",
 		"/home/viviturtle/Github/Projects/.gitignore",
@@ -301,6 +301,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"kicker",
+			"galway",
+			"logo",
 			"body",
 			"e5eaee",
 			"229, 234, 238",
@@ -397,7 +400,7 @@
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -454,7 +457,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -482,7 +485,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -510,7 +513,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -539,7 +542,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -567,7 +570,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -596,7 +599,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -605,15 +608,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 578,
+						"buffer_size": 593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								262,
-								262
+								105,
+								105
 							]
 						],
 						"settings":
@@ -624,7 +627,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -633,15 +636,43 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 283,
+						"buffer_size": 297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								283
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_layouts/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								500,
+								500
 							]
 						],
 						"settings":
@@ -656,35 +687,35 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "_layouts/home.html",
-					"semi_transient": false,
+					"buffer": 10,
+					"file": "_posts/portfolio/2015-09-30-welcome-to-jekyll2.markdown",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 705,
+						"buffer_size": 1286,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								595,
-								595
+								95,
+								95
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "_includes/about.html",
 					"semi_transient": false,
 					"settings":
@@ -702,17 +733,19 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "_includes/footer.html",
 					"semi_transient": false,
 					"settings":
@@ -736,35 +769,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "_includes/footer_small.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -786,13 +791,15 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -814,7 +821,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -829,15 +838,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34438,
+						"buffer_size": 34456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13254,
-								13254
+								15335,
+								15335
 							]
 						],
 						"settings":
@@ -847,7 +856,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 17925.0,
+						"translation.y": 19404.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -878,7 +887,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -951,7 +960,7 @@
 		[
 			[
 				"",
-				"~/DefCon24/DefCon24.sublime-project"
+				"~/Github/viviturtle.github.io/blog.sublime-project"
 			]
 		],
 		"width": 380.0
