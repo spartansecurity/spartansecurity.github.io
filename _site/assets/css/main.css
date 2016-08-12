@@ -1386,7 +1386,7 @@ form {
     #h_small #nav_small a {
       display: inline-block;
       margin-left: 10px;
-      color: rgba(255, 94, 0, 0.9); }
+      color: rgba(255, 255, 255, 1.0); }
       #h_small #nav_small a:hover {
         color: black; }
   #h_small #h1_small {

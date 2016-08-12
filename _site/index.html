@@ -28,25 +28,95 @@
    <p class="kicker">  Capture the Flags // Reverse Engineering // Exploitation</p>
 </header>
 
-<h2 id="Blog"> Blog </h2>
+
+<h2 id="Blog" style="font-size: 30px;"> Announcements and Blogs </h2>
+
 <hr class="bar-blog"> </hr>
+<div class="blog-index">  
+  
+  
+  
+
+<script type="text/javascript">
+			// needs to be a string for jquery.cookie
+			var postId = '1';
+			$(function()
+			{
+				// initialize kudos
+				$("figure.kudoable").kudoable();
+				// check to see if user has already kudod
+				// fyi cookies do not work when you are viewing this as a file
+				if($.cookie(postId) == 'true') {
+					// make kudo already kudod
+					$("figure.kudoable").removeClass("animate").addClass("complete");
+					// your server would take care of the proper kudos count, but because this is a
+					// static page, we need to set it here so it doesn't become -1 when you remove
+					// the kudos after a reload
+					$(".num").html(1);
+				}
+				// when kudoing
+				$("figure.kudo").bind("kudo:active", function(e)
+				{
+					console.log("kudoing active");
+				});
+				// when not kudoing
+				$("figure.kudo").bind("kudo:inactive", function(e)
+				{
+					console.log("kudoing inactive");
+				});
+				// after kudo'd
+				$("figure.kudo").bind("kudo:added", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Kodo'd:", element.data('id'), ":)");
+					// set cookie so user cannot kudo again for 7 days
+					$.cookie(postId, 'true', { expires: 7 });
+				});
+				// after removing a kudo
+				$("figure.kudo").bind("kudo:removed", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Un-Kudo'd:", element.data('id'), ":(");
+					// remove cookie
+					$.removeCookie(postId);
+				});
+			});
+		</script>
+
+<div class="post-header">
+	<h1 class="post-title">
+	
+	    <a href="/blog/2015/09/15/A-New-Year.html">A New Year</a>
+	
+	</h1>
+	</div>
+	<div class="post-header">
+	
+	  <p class="post-meta">September 15, 2015 — 11:11</p>
+	</div>
+<div class="post-wrapper">
 
 
-    <div class="post-header title">
-      <a href="/blog/2015/09/15/A-New-Year.html"><h1 class="post-title">A New Year</h1></a>
-    </div>
-    <div class="post-header date">
-      <p class="post-meta">September 15, 2015 — 11:11</p>
-    </div>
 
 
+  <article class="post-content">
+    <div class = "blurb-blog">
+    <p>I’d like to welcome everyone back for the new year. The club has some big things happening this year so lets work together to put SJSU on the Information security map. We are implenting a few new changes this year. First of all, we are implementing a membership fee of $5 to help pay for power chords and other projects we may want to dive into. We are also adding on a mentor program. Because the field has such a high learning curve, if our new members are dedicated, they can request to be assigned a senior member to mentor them in the field.</p>
 
-    <div class="post-header title">
-      <a href="/blog/2015/04/21/New-Officers.html"><h1 class="post-title">New Officers</h1></a>
-    </div>
-    <div class="post-header date">
-      <p class="post-meta">April 21, 2015 — 09:51</p>
-    </div>
+<p>On another note, we recently finalized our schedule for this semester. They are officially Mondays at 3:00 pm and Tuesdays at 5:30 pm. Our first few talks are going to have an easier learning curve to it. Starting from the basics of InfoSecs and eventually leading to more advance topics. One example is, I am personally teaching all Web Application Stuff this year. In that way, our members can build their skills on top of each other. Hopefully our lessons will be more organized and more friendly for the new members. From the looks of it, this year already has a great start. I hope you all continue to bring more to the club.</p>
+
+   </div>
+  </article>
+
+
+</div>
+<div class="comment">
+  
+  </div>
+
+</div>
 
 
 
@@ -76,7 +146,7 @@
 
 <div class="history">
    <div class="cd-timeline-header">
-      <h2 id="Experenice">Experience</h2>
+      <h2 id="Experenice" style="font-size: 30px;">Experience</h2>
       <hr class="bar"/>
    </div>
    <section id="cd-timeline" class="cd-container">
@@ -123,7 +193,7 @@
 </div>
 
 <section>
-   <h2 id="about-me">About the Club</h2>
+   <h2 id="about-me" style="font-size: 30px";>About the Club</h2>
    <hr class="bar"/>
    <div class="about-lock">
       <div ontouchstart="this.classList.toggle('hover');" class="flip-container">
@@ -148,7 +218,7 @@
 </section>
 
 <section class="section-contact">
-   <h2 id="Details">Contact Details</h2>
+   <h2 id="Details" style="font-size: 30px;">Contact Details</h2>
    <hr class="bar"/>
    <div class="social-links">
       <a href="https://www.facebook.com/groups/sjsuinfosec">
@@ -168,9 +238,16 @@
    <a href="mailto:sjsu.infosec@gmail.com" class="biglink">sjsu.infosec@gmail.com</a>
 </section>
 
-<section><h2 id="Contact">Contact Me</h2><hr class="bar"/><form method="post" action="//formspree.io/example@gmail.com"><div class="contact-info-group"><label><span>Your Name</span><input type="text" name="name"/></label><label><span>Your Email</span><input type="email" name="_replyto"/></label></div><label><span>Message</span><textarea name="Message"></textarea><div class="submit-wrap"><input type="submit" value="Send"/></div></label></form></section>
+<!-- <section><h2 id="Contact" >Contact Me</h2><hr class="bar"/><form method="post" action="//formspree.io/example@gmail.com"><div class="contact-info-group"><label><span>Your Name</span><input type="text" name="name"/></label><label><span>Your Email</span><input type="email" name="_replyto"/></label></div><label><span>Message</span><textarea name="Message"></textarea><div class="submit-wrap"><input type="submit" value="Send"/></div></label></form></section> -->
 
-  <footer><div class="lockup"><div class="content-wrap"><nav><a href="#about-me">About Me</a><a href="#Experenice">Experience</a><a href="#Blog">Blog</a><a href="#Details">Contact Me</a></nav><p class="copyright">SJSU InfoSec Club 2016</p></div></div></footer>
+  <footer>
+   <div class="lockup">
+      <div class="content-wrap">
+         <nav><a href="#about-me">About Me</a><a href="#Experenice">Experience</a><a href="#Blog">Blog</a><a href="#Details">Contact Me</a></nav>
+         <p class="copyright">SJSU InfoSec Club 2016</p>
+      </div>
+   </div>
+</footer>
   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="assets/js/functions.js"></script>
   <script src="assets/js/main.js"></script>

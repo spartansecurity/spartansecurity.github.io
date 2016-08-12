@@ -4,9 +4,17 @@ layout: default
 
 {% include header.html %}
 
-<h2 id="Blog"> Blog </h2>
+
+<h2 id="Blog" style="font-size: 30px;"> Announcements and Blogs </h2>
+
 <hr class="bar-blog"> </hr>
-{% for post in site.categories['blog'] limit:4%}
+<div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
+
+{% for post in site.categories['blog'] offset:2 | limit:2%}
 
     <div class="post-header title">
       <a href="{{post.url}}"><h1 class="post-title">{{ post.title }}</h1></a>
@@ -29,4 +37,4 @@ layout: default
 
 {% include contact.html %}
 
-{% include message.html %}
+<!-- {% include message.html %} -->
